@@ -1,0 +1,124 @@
+.seat1, .seat2, .seat3, .seat4{
+  width:100px;
+  height:100px;
+  margin: 5px;
+  border: solid black 1px;
+  border-radius: 5%;
+  text-align: center;
+  background-color: lightgrey;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  font-size: 28px;
+  
+}
+
+.allseats{
+  display: flex;
+  width: 450px;
+  margin:auto;
+  padding:25px;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.YourInfo, .seatselection{
+    display: flex;
+    flex-direction: column;
+    width:450px;
+    margin:auto;
+    background-color: aliceblue;
+    border: solid 1px grey;
+    border-radius: 5%;
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.seatselection{
+  margin-bottom: 10px;
+}
+
+.form{
+  margin: 35px 20px 20px 20px;
+ 
+}
+
+h3{
+  font-size: 24px;
+}
+
+h1{
+  font-size:50px;
+  text-align: center;
+  color: white;
+  font-family: 'Righteous', cursive;
+  
+}
+
+span{
+  font-size:18px;
+  margin: 5px;
+}
+
+input{
+  margin: 10px;
+  width: 400px;
+
+}
+
+button{
+  width:200px;
+  height: 30px;
+  margin:auto;
+  border-radius: 5%;
+  font-size:14px;
+}
+
+.topsection{
+  border: 1px black solid;
+  width:500px;
+  border-radius: 5%;
+  margin:auto;
+  background-color: aliceblue;
+}
+
+.key1, .key2{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 5%;
+}
+
+.keybox{
+  display:flex;
+}
+
+.keya, .keyb{
+  display: flex;
+  margin:0px 20px;
+   justify-content: center;
+  align-items:center;
+  
+}
+
+.keytext{
+  font-size: 22px;
+  padding: 0px 10px;
+}
+
+.key1{
+  background-color: lightgrey;
+}
+.key2{
+  background-color:lightgoldenrodyellow;
+}
+
+body{
+  font-family: Sans-Serif;
+  background-image: url("http://finedininglovers.cdn.crosscast-system.com/BlogPost/l_12742_ithaa-restaurant.jpg");
+  background-position: 50% 50%;
